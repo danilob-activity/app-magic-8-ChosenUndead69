@@ -39,5 +39,6 @@
         android:layout_above="@+id/askBotton"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="65dp"
+        android:contentDescription="answer"
         app:srcCompat="@drawable/ball1" />
 </RelativeLayout>
