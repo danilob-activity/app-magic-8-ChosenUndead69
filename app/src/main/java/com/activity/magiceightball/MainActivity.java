@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Random randomNumberGenerator = new Random ();
-                int numero = randomNumberGenerator.nextInt(6);
+                int numero = randomNumberGenerator.nextInt(5);
                 image_eightBall.setImageResource(ballArray[numero]);
 
             }
